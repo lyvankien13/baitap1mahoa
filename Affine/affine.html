@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mã hoá Affine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Mã hoá Affine</h2>
+        <textarea id="plaintext" placeholder="Nhập văn bản..."></textarea>
+        <input type="number" id="a" placeholder="Nhập a (coprime 26)">
+        <input type="number" id="b" placeholder="Nhập b">
+        <button onclick="encrypt()">Mã hoá</button>
+        <button onclick="decrypt()">Giải mã</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="affine.js"></script>
+</body>
+
+</html>

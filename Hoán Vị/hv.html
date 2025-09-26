@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mã hoá Hoán vị</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Mã hoá Hoán vị</h2>
+        <textarea id="plaintext" placeholder="Nhập văn bản..."></textarea>
+        <input type="text" id="key" placeholder="Nhập thứ tự hoán vị, vd: 3,1,2">
+        <button onclick="encrypt()">Mã hoá</button>
+        <button onclick="decrypt()">Giải mã</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="hoanvi.js"></script>
+</body>
+
+</html>
